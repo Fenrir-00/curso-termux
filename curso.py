@@ -104,6 +104,41 @@ def cabecera():
    ██║   ██║██╔═══╝    ██║   ██╔══╝  ██║╚██╔╝██║██║   ██║ ██╔██╗
    ██║   ██║██║        ██║   ███████╗██║ ╚═╝ ██║╚██████╔╝██╔╝╚██╗
    ╚═╝   ╚═╝╚═╝        ╚═╝   ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝""")
+def ls():
+ os.system("clear")
+ texto="""
+
+        ███████████████████████████████
+        █░░░░░░█████████░░░░░░░░░░░░░░█
+        █░░▄▀░░█████████░░▄▀▄▀▄▀▄▀▄▀░░█
+        █░░▄▀░░█████████░░▄▀░░░░░░░░░░█
+        █░░▄▀░░█████████░░▄▀░░█████████
+        █░░▄▀░░█████████░░▄▀░░░░░░░░░░█
+        █░░▄▀░░█████████░░▄▀▄▀▄▀▄▀▄▀░░█
+        █░░▄▀░░█████████░░░░░░░░░░▄▀░░█
+        █░░▄▀░░█████████████████░░▄▀░░█
+        █░░▄▀░░░░░░░░░░█░░░░░░░░░░▄▀░░█
+        █░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█                                                         █░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█
+        ███████████████████████████████
+"""
+ lol_py(texto)
+ print(f"""{color.morado}EL SIGUIENTE COMANDO: {color.amarillo}ls {color.cyan}
+NOS PERMITE VER LOS ARCHIVOS DENTRO DE LA CARPETA O UBICACION QUE NOS
+ENCONTREMOS ACTUALMENTE
+""")
+def sub():
+ print(f"{color.morado}QUE QUIERES HACER AHORA{color.fin}")
+ print()
+ print(f"{color.azul}[1] VOLVER")
+ print(f"{color.rojo}[2] SALIR{color.fin}")
+ print()
+ var=input(f"{color.cyan}ELIJE UN NUMERO >> {color.fin}")
+ if var == "1":
+  menu()
+ elif var == "2":
+  salir()
+ else :
+  incorrecto()
 def menu():
     os.system("clear")
     cabecera()
