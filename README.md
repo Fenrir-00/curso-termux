@@ -1,4 +1,5 @@
 #  mini curso-termux
+![Screenshot](curso.png)
 # instalación
 ``` bash
 pkg install git
