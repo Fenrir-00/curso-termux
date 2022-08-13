@@ -105,7 +105,7 @@ def cabecera():
    ██║   ██║██║        ██║   ███████╗██║ ╚═╝ ██║╚██████╔╝██╔╝╚██╗
    ╚═╝   ╚═╝╚═╝        ╚═╝   ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝""")
 def construir():
- print("EN CONSTRUCION MIRAR OS AVISARA DE ACTUALIZACIONES")
+ print("EN CONSTRUCION OS AVISARA DE ACTUALIZACIONES")
  sub()
 def ls():
  os.system("clear")
@@ -170,7 +170,7 @@ def menu():
         ls()
         sub()
     elif eleccion == "2" :
-      banner()
+      construir()
     elif eleccion == "3" :
      construir()
     elif eleccion == "4" :
