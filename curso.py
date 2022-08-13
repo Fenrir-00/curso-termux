@@ -136,7 +136,7 @@ def sub():
  if var == "1":
   menu()
  elif var == "2":
-  salir()
+  exit()
  else :
   incorrecto()
 def menu():
