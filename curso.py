@@ -22,7 +22,7 @@ class color:
     rojo = '\033[91m'
     fin = '\033[0m'
 
-r= requests.get("https://raw.githubusercontent.com/Fenrir-00/baner-termux/main/version.txt")
+r= requests.get("https://raw.githubusercontent.com/Fenrir-00/curso-termux/main/version.txt")
 r=r.text
 print(r)
 if r != "version=1.2\n":
@@ -78,3 +78,4 @@ def cabecera()
    ██║   ██║██╔═══╝    ██║   ██╔══╝  ██║╚██╔╝██║██║   ██║ ██╔██╗
    ██║   ██║██║        ██║   ███████╗██║ ╚═╝ ██║╚██████╔╝██╔╝╚██╗
    ╚═╝   ╚═╝╚═╝        ╚═╝   ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝""")
+cabecera()
