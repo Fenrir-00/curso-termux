@@ -104,6 +104,9 @@ def cabecera():
    ██║   ██║██╔═══╝    ██║   ██╔══╝  ██║╚██╔╝██║██║   ██║ ██╔██╗
    ██║   ██║██║        ██║   ███████╗██║ ╚═╝ ██║╚██████╔╝██╔╝╚██╗
    ╚═╝   ╚═╝╚═╝        ╚═╝   ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝""")
+def construir():
+ print("EN CONSTRUCION MIRAR OS AVISARA DE ACTUALIZACIONES")
+ sub()
 def ls():
  os.system("clear")
  texto="""
@@ -169,27 +172,27 @@ def menu():
     elif eleccion == "2" :
       banner()
     elif eleccion == "3" :
-     banner()
+     construir()
     elif eleccion == "4" :
-     banner()
+     construir()
     elif eleccion == "5" :
-     banner()
+     construir()
     elif eleccion == "6" :
-     banner()
+     construir()
     elif eleccion == "7" :
-     banner()
+     construir()
     elif eleccion == "8" :
-     banner()
+     construir()
     elif eleccion == "9" :
-     banner()
+     construir()
     elif eleccion == "10" :
-     banner()
+     construir()
     elif eleccion == "11" :
-     banner()
+     construir()
     elif eleccion == "12" :
-     banner()
+     construir()
     elif eleccion == "13" :
-     banner()
+     construir()
     elif eleccion == "14" :
      banner()
     elif eleccion == "15" :
