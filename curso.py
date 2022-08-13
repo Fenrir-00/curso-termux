@@ -163,7 +163,8 @@ def menu():
 """)                                                                                                          
     eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
-        banner()
+        ls()
+        sub()
     elif eleccion == "2" :
       banner()
     elif eleccion == "3" :
