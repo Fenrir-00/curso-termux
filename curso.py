@@ -126,7 +126,7 @@ def menu():
 [13]CREAR CARPETAS               MKDIR
 {color.rojo}[0]SALIR{color.fin}
 """)                                                                                                          
-eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
+    eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
         banner()
     elif eleccion == "2" :
