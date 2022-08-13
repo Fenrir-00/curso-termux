@@ -68,7 +68,7 @@ def version():
  | Contact me on Telegram : @Ritorito1990                |
  ========================================================= """
  lol_py(texto)
-def cabecera()
+def cabecera():
  os.system("clear")
  print(f"""{color.cyan}
 
