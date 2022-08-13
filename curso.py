@@ -116,14 +116,17 @@ def menu():
 [3]LIMPIAR CONSOLA               CLEAR
 [4]PAQUETES                      PKG
 [5]HERRQMIENTAS                  PT
-[6]BORRA ARCHIVOS                RM                                                                       [7]ENTRAR EN UNA CARPETA         CD                                                                       [8]COPIAR UN ARCHIVO             CP
+[6]BORRA ARCHIVOS                RM                                                                       
+[7]ENTRAR EN UNA CARPETA         CD                                                                       
+[8]COPIAR UN ARCHIVO             CP
 [9]CREAR UN ARCHIVO              TOUCH
 [10]LEER UN ARCHIVO              CAT
 [11]SALIR                        EXIT
 [12]PERMISO CARPETAS TELEFONO    TERMUX-SETUP-STORAGE
 [13]CREAR CARPETAS               MKDIR
 {color.rojo}[0]SALIR{color.fin}
-""")                                                                                                          eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
+""")                                                                                                          
+eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
         banner()
     elif eleccion == "2" :
