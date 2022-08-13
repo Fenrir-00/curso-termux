@@ -49,3 +49,22 @@ HAY UNA NUEVA VERSION ACTUALIZA EL REPOSITORIO
 HAY UNA NUEVA VERSION ACTUALIZA EL REPOSITORIO
 HAY UNA NUEVA VERSION ACTUALIZA EL REPOSITORIO""")
  time.sleep(5)
+def banner():
+ os.system("clear")
+ print(f"""{color.cyan}
+███████╗███████╗███╗  ██╗██████╗ ██╗██████╗
+██╔════ ██╔════╝████╗ ██║██╔══██╗██║██╔══██╗
+█████╗  █████╗  ██╔██╗██║██████╔╝██║██████╔╝
+██╔══   ██╔══╝  ██║╚████║██╔══██╗██║██╔══██╗
+██║     ███████╗██║ ╚███║██║  ██║██║██║  ██║
+╚═╝     ╚══════╝╚═╝  ╚══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝""")
+ print(f"{color.fin}")
+def version():
+ texto ="""
+ |=======================================================|
+ | Script by              : #FENRIR-00                   |
+ | Version                : Version  1.2                 |
+ | Follow me on Github    : https://github.com/Fenrir-00 |
+ | Contact me on Telegram : @Ritorito1990                |
+ ========================================================= """
+ lol_py(texto)
