@@ -154,7 +154,7 @@ def pwd():
              
     """
     lol_py(texto)
-    print(f"""{color.morado}EL SIGUIENTE COMANDO: {color.amarillo}ls {color.cyan}
+    print(f"""{color.morado}EL SIGUIENTE COMANDO: {color.amarillo}pwd {color.cyan}
     NOS PERMITE VER LOS ARCHIVOS DENTRO DE LA CARPETA O UBICACION QUE NOS
     ENCONTREMOS ACTUALMENTE
     """)
